@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/notes/
+Content-Type: application/json
+
+{
+    "content": "another note",
+    "important": true,
+    "userId": "6148fcffe15c6582ad633510"
+}

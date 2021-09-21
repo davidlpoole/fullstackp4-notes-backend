@@ -1,8 +1,8 @@
 POST http://localhost:3001/api/notes/
 Content-Type: application/json
+Authorization: Bearer 
 
 {
-    "content": "another note",
-    "important": true,
-    "userId": "6148fcffe15c6582ad633510"
+    "content": "authenticated note",
+    "important": false
 }
